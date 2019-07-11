@@ -123,6 +123,7 @@ def num_points_scored(player_n)
     keys.each do |key, attribute|
       key[:player].each do |player_name|
         binding.pry
+      end
     end
   end
 end
