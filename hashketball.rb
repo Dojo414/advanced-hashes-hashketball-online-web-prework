@@ -121,8 +121,9 @@ end
 def num_points_scored(player_n)
   game_hash.each do |home_away, keys|
     keys.each do |key, attribute|
-      binding.pry
-        
+      if key[:players].includes?(player_n)
+        puts key[:players][player_n][:points].to_i
+      end
     end
   end
 end
