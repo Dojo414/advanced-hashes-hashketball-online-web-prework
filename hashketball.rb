@@ -34,6 +34,7 @@ def game_hash
           :block => 12,
           :slam_dunks => 7,
           }
+          "Mason Plumlee"
         ]
     }
   }
