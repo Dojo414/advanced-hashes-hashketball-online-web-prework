@@ -121,7 +121,7 @@ end
 def num_points_scored(player_n)
   game_hash.each do |home_away, keys|
     keys[:players].each do |name, stats|
-      
+      binding.pry
     end
   end
 end
