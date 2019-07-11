@@ -1,4 +1,5 @@
-game_hash = {
+def game_hash
+  game_hash = {
   :team1 => {
     :name => "The Ragin' Cajuns",
     :colors => ["red", "yellow"],
